@@ -19,6 +19,7 @@ $ sudo apt-get upgrade
 For build code...
 
 ```sh
+$ cd <Path of Coding Challenge Folder>
 $ g++ vertex.cpp graph.cpp main.cpp -o CodingChallenge
 $ ./CodingChallange
 ```
@@ -26,6 +27,7 @@ $ ./CodingChallange
 For build test code...
 
 ```sh
+$ cd <Path of Coding Challenge Test Folder>
 $ g++ pch.cpp test.cpp -o CodingChallangeTest -lgtest -lpthread
 $ ./CodingChallengeTest
 ```
