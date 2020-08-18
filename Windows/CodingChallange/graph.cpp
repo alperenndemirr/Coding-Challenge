@@ -21,9 +21,7 @@ Graph::Graph(int numberOfVertex) {
 
 vector<Vertex*> Graph::getList() { return adjancencyList; }
 
-Graph::~Graph() {
-  // delete[]adj;
-}
+Graph::~Graph() {}
 
 void Graph::addEdge(int source, int destination, int weight) {
   adjancencyList.at(source)->getDestinations()->push_back(
@@ -91,7 +89,8 @@ void Graph::printShortestPaths(int s) {
   for (int i = 0; i < numberOfVertex; i++) {
     cout << "\tVertex : " << i << "\tDistance: "
          << (distances[i] == INT_MAX ? "Unexplored vertex"
-                                     : to_string(distances[i])) << endl;
+                                     : to_string(distances[i]))
+         << endl;
   }
 }
 
