@@ -4,7 +4,7 @@
 
 ### Installation for Linux
 #### Requirements
-* [GTest](https://github.com/google/googletest)
+* [Google Test](https://github.com/google/googletest)
 * [Linux](https://www.linux.org/)
 * [g++](https://gcc.gnu.org/)
 
