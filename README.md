@@ -1,12 +1,14 @@
 # Coding Challenge - Implemantation of Graph
 
+>This code a directed weighted graph data structures with considering object oriented programming. We have implemented Dijkstra's algorithm of the shortest path algorithms, also implemented check if is a graph directed acyclic graph or not. Our implemantation have tested google test framework and passed by all case.
+
 ### Installation for Linux
 #### Requirements
 * [GTest](https://github.com/google/googletest)
 * [Linux](https://www.linux.org/)
 * [g++](https://gcc.gnu.org/)
 
-This code requires g++ 4:9.3.0-1ubuntu2 and ubuntu 20.04 to run.
+>This code run with g++ 4:9.3.0-1ubuntu2 and ubuntu 20.04.
 
 Install the test dependencies.
 
@@ -35,4 +37,22 @@ $ ./CodingChallengeTest
 ### Installation for Windows
 * [Visual Studio 2019](https://visualstudio.microsoft.com/)
 * [Windows](https://www.microsoft.com/en-us/windows)
-> This code requires Visiual Studio 2019 and Windows 10 v2004 to run.
+> This code run with Visiual Studio 2019 and Windows 10 (2004).
+
+For build code...
+
+```sh
+ Go to the Windows/CodingChallenge directory.
+ Run Coding Challenge.sln
+ Run with Debug x86
+```
+
+For build test code...
+
+```sh
+ Go to the Windows/CodingChallenge directory.
+ Run Coding Challenge.sln
+ Solution Explorer > Right-click the Solution > Properties > Change Single Startup Project to CodingChallengeTest
+ Run with Debug x86 
+```
+
