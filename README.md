@@ -1,6 +1,6 @@
 # Coding Challenge - Implemantation of Graph
 
->This code a directed weighted graph data structures with considering object oriented programming. We have implemented Dijkstra's algorithm of the shortest path algorithms, also implemented check if is a graph directed acyclic graph or not. Our implemantation have tested google test framework and passed by all case.
+>This code a directed weighted graph data structures with considering object-oriented programming. We have implemented Dijkstra's algorithm of the shortest path algorithms, also implemented to check if is a graph directed acyclic graph or not. Our implementation has been tested on google test framework and passed by all cases.
 
 ### Installation for Linux
 #### Requirements
