@@ -21,9 +21,7 @@ Graph::Graph(int numberOfVertex) {
 
 vector<Vertex*> Graph::getList() { return adjancencyList; }
 
-Graph::~Graph() {
-  // delete[]adj;
-}
+Graph::~Graph() {}
 
 void Graph::addEdge(int source, int destination, int weight) {
   adjancencyList.at(source)->getDestinations()->push_back(

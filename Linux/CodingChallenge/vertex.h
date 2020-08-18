@@ -18,6 +18,7 @@ class Vertex {
 
  public:
   Vertex(int id);
+  ~Vertex();
 
   int getID();
   void setID(int id);

@@ -9,6 +9,8 @@
 
 Vertex::Vertex(int id) : id(id) {}
 
+Vertex::~Vertex() {}
+
 int Vertex::getID() { return id; }
 
 void Vertex::setID(int id) { this->id = id; }
