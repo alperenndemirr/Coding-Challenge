@@ -21,16 +21,16 @@ $ sudo apt-get upgrade
 For build code...
 
 ```sh
-$ cd <Path of Coding Challenge Folder>
+$ cd path/of/file/Linux/CodingChallenge
 $ g++ vertex.cpp graph.cpp main.cpp -o CodingChallenge
-$ ./CodingChallange
+$ ./CodingChallenge
 ```
 
 For build test code...
 
 ```sh
-$ cd <Path of Coding Challenge Test Folder>
-$ g++ pch.cpp test.cpp -o CodingChallangeTest -lgtest -lpthread
+$ cd path/of/file/Linux/CodingChallengeTest
+$ g++ pch.cpp test.cpp -o CodingChallengeTest -lgtest -lpthread
 $ ./CodingChallengeTest
 ```
 
@@ -55,4 +55,3 @@ For build test code...
  Solution Explorer > Right-click the Solution > Properties > Change Single Startup Project to CodingChallengeTest
  Run with Debug x86 
 ```
-
